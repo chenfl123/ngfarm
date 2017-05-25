@@ -1,0 +1,30 @@
+<ion-modal-view  hide-tabs>
+  <ion-header-bar id="login" class="login">
+    <h1 class="title">密码登录</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeLogin()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content id="login-cont">
+  	<div id="icon-login">
+  		<img src="../img/logo/icon-of.png"/>
+  	</div>
+    <form ng-submit="doLogin()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label" style="text-align:center;">帐号</span>
+          <input type="text" ng-model="loginData.username" placeholder="请输入手机号">
+        </label>
+        <label class="item item-input">
+          <span class="input-label" style="text-align:center;">密码</span>
+          <input type="password" ng-model="loginData.password" placeholder="请输入密码">
+        </label>
+        <label class="item" style="border-bottom: none;">
+        	
+          <button class="button button-block button-positive" type="submit">登录</button>
+        </label>
+      </div>
+    </form>
+    <p class="reg-login-tip"><span class="want-reg" ng-click="resgin()">免费注册</span><a class="forget-pass" href="#">忘记密码？</a></p>
+  </ion-content>
+</ion-modal-view>

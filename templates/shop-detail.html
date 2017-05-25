@@ -1,0 +1,30 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title=" 商品详情" hide-tabs>
+	<ion-content class="padding">
+		<div class="homePage">
+			<div class="contents">
+				<img ng-src="{{goods.list}}" alt="">
+				<p>{{goods.title}}</p>
+				<p>价格: <span class="price">{{goods.price*goods.off | currency:'￥'}} </span>
+					<span>已打{{goods.off}}折</span> <span class="colect">收藏</span>
+				</p>
+				<div class="shop-box">
+					<span class="ion-ios-infinite-outline chat" ng-click="tokeshop()">
+						谈生意</span> 
+						<!--<span class="ion-android-cart shop" ng-click="seecar()">
+							购物车<i class="shop-num" ng-show="user.username">{{carnum}}</i></span> -->
+					<button type="button" class="button button-assertive" id="car-btn" ng-click="addcar()">加入购物车</button>
+				
+				</div>
+			</div>
+			<h3 class="shop-detail">商品详情</h3>
+			<img class="detail-cont" ng-src="{{goods.detail}}"/>
+		</div>
+	</ion-content>
+</ion-view>
+

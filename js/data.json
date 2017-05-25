@@ -1,0 +1,20 @@
+[
+	{
+		"id": "G001",
+		"title": "",
+		"imgurl": "img/banner/chaye.jpg",
+		"url":"detail.html"
+	},
+	{
+		"id": "G002",
+		"title": "",
+		"imgurl": "img/banner/haodou.jpg",
+		"url": "detail.html"
+	},
+	{
+		"id": "G003",
+		"title": "",
+		"imgurl": "img/banner/shengnvguo.jpg",
+		"url": "detail.html"
+	}
+]

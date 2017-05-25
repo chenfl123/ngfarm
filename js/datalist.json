@@ -1,0 +1,37 @@
+[
+	{
+		"id": "F001",
+		"title": "无公害水果直销",
+		"imgurl":["img/fruit/shali.jpg","img/fruit/jizao.jpg","img/fruit/qingmeng.jpg","img/fruit/nimaotao2.jpg"] ,
+		"datalist":["img/fruit/shali.jpg","img/fruit/jizao.jpg","img/fruit/qingmeng.jpg","img/fruit/nimaotao2.jpg"],
+		"url":"detail.html"
+	},
+	{
+		"id": "F002",
+		"title": "农家肉类直销",
+		"imgurl": ["img/birds/shanzhu.jpg","img/birds/muji1.jpg","img/birds/larou.jpg","img/birds/yang.jpg"],
+		"datalist": ["img/birds/shanzhu.jpg","img/birds/muji1.jpg","img/birds/larou.jpg","img/birds/yang.jpg","img/birds/tujidan.jpg","img/birds/baizhu.JPEG","img/birds/shanzhu.jpg"],
+		"url": "detail.html"
+	},
+	{
+		"id": "F003",
+		"title": "无公害蔬菜直销",
+		"imgurl": ["img/vegetable/jiucaiye.jpg","img/vegetable/xihongshi.jpg","img/vegetable/woshun.jpg","img/vegetable/yudou2.jpg"],
+		"datalist": ["img/vegetable/jiucaiye.jpg","img/vegetable/xihongshi.jpg","img/vegetable/yudou2.jpg","img/vegetable/yudou2.jpg","img/vegetable/woshun.jpg","img/vegetable/yudou2.jpg"],
+		"url": "detail.html"
+	},
+	{
+		"id": "F004",
+		"title": "水塘水产",
+		"imgurl": ["img/fish/yugan.jpg","img/fish/baoyu.jpg","img/fish/longsha1.jpg","img/fish/caoyu.JPEG"],
+		"datalist": ["img/fish/yugan.jpg","img/fish/baoyu.jpg","img/fish/longsha1.jpg","img/fish/caoyu.JPEG","img/fish/baiyu.jpg","img/fish/baoyu.jpg","img/fish/caoyu.JPEG","img/fish/longsha1.jpg","img/fish/yu.JPEG"],
+		"url": "detail.html"
+	},
+	{
+		"id": "F005",
+		"title": "营养搭配套餐",
+		"imgurl": ["img/fruitteam/team1.png","img/fruitteam/team2.png","img/fruitteam/team3.png","img/fruitteam/team4.png"],
+		"datalist": ["img/fruitteam/team1.png","img/fruitteam/team2.png","img/fruitteam/team3.png","img/fruitteam/team4.png","img/fruitteam/baiyu.jpg","img/fruitteam/team5.png","img/fruitteam/team6.png","img/fruitteam/team7.png","img/fruitteam/team8.png"],
+		"url": "detail.html"
+	}
+]

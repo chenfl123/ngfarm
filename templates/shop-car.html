@@ -1,0 +1,27 @@
+<ion-view id="car-body" view-title="购物车" hide-tabs>
+	<ion-content id="car-cont">
+		<div class="car"  ng-repeat="id in goodlist" >
+			
+			<h3 class="shops-title" ng-edit>
+				<input type="checkbox" />全选 <span>
+					<i class="ion-ios-briefcase-outline"></i>{{id.titles}}</span> 
+					<em ng-click="edit(!deleted)">编辑</em></h3>
+			<ul class="shop-car-list">
+				<li class="itemlist"  ng-repeat="it in id.goods" ng-model="it.num" >
+					<input type="checkbox" />
+					<img src="{{it.list}}" />
+					<div class="detail-titles" ng-show="deleted">
+						<p class="detail-title-scon"> {{it.title }} </p>
+						<p class="price-thing"><span class="prices"  >{{it.price | currency:'￥'}}</span> <i>{{it.price*(1+it.off) | currency:'￥'}}</i> <em>x{{it.num}}</em></p>
+					</div>
+						<div class="detail-titles" ng-hide="deleted">
+						 <aside class="left-edit"><span class="ion-minus-round" ng-click="it.num=it.num-1;change($event,it.num)"></span><i >{{it.num}}</i><span class="ion-plus-round" ng-click="it.num=it.num+1"></span></aside>
+						 <aside class="right-delet" ng-click="delet()">删除</aside>
+						 
+					</div>
+				</li>
+			</ul>
+		</div>
+		<aside class="totle-warn"><div class="check-totle"><input type="checkbox" />全选</div><div class="totle-price">  合计：<span>$1000</span></div><span class="pay">去结算</span></aside>
+	</ion-content>
+</ion-view>

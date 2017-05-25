@@ -1,19 +1,27 @@
-<ion-view view-title="惠民商城" align-title="center">
-	<ion-content class="padding">
+<ion-view view-title="惠民商城 <img class='logo' src='img/logo/logo.png'/> <span class='ion-search search'></span>" align-title="center">
+
+	<ion-content>
+		<ion-refresher pulling-text="下拉刷新..." on-refresh="doRefresh()">
+		</ion-refresher>
 		<!--轮播图-->
-		<ion-slide-box>
-			<ion-slide>
-				<div class="box blue">
-					<h1>BLUE</h1></div>
-			</ion-slide>
-			<ion-slide>
-				<div class="box yellow">
-					<h1>YELLOW</h1></div>
-			</ion-slide>
-			<ion-slide on-slide-changed="slideHasChanged(index)">
-				<div class="box pink">
-					<h1>PINK</h1></div>
+		<ion-slide-box auto-play="true" does-continue="true" show-pager="false" slide-interval=5000>
+			<ion-slide ng-repeat="item in banners">
+				<a href="#/tab/chats"><img ng-src="{{item.imgurl}}" alt="" style="width:100%;height:70px;"></a>
 			</ion-slide>
 		</ion-slide-box>
+		<!--种类列表-->
+		<section class="page-cont" ng-repeat="item in lists">
+			<h3 style="color: green;"> 
+					<span  class="ion-grid" ></span>
+					{{item.title}}
+				</h3>
+			<ul class="fruit">
+				<li ng-repeat="i in item.imgurl">
+					<a href="#/tab/lists"><img src="{{i}}" /></a>
+				</li>
+
+			</ul>
+
+		</section>
 	</ion-content>
 </ion-view>

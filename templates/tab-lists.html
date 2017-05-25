@@ -1,0 +1,29 @@
+<ion-view view-title="农产品聚集地">
+	<ion-content>
+		<ion-refresher pulling-text="下拉刷新..." on-refresh="doRefresh()">
+		</ion-refresher>
+		<div class="contentlist">
+			<ul class="l_left">
+				<li ng-click="class('fruit')" ng-class="{active:current=='fruit'}">无公害水果</li>
+				<li ng-click="class('birds')" ng-class="{active:current=='birds'}">农家肉类</li>
+				<li ng-click="class('vegetable')" ng-class="{active:current=='vegetable'}">无公害蔬菜</li>
+				<li ng-click="class('fish')" ng-class="{active:current=='fish'}">水塘水产</li>
+							<li ng-click="class('tea')" ng-class="{active:current=='tea'}">茶系列</li>
+				<li ng-click="class('fruitteam')" ng-class="{active:current=='fruitteam'}">营养搭配套餐</li>
+			</ul>
+			<div class="l_right">
+				
+				<ul class="c_list">
+					<li ng-repeat="item in type">
+					 <a ng-repeat="it in item.datalist" ng-href="#/tab/lists/{{it.id}}"><img ng-src="{{it.list}}" alt="">
+							<p>{{it.title}}</p>
+							<p>价格: <span class="price">{{it.price*it.off | currency:'￥'}} </span>
+								<span class="off">{{it.off}}折</span>
+							</p>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+	</ion-content>
+</ion-view>

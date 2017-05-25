@@ -1,9 +1,50 @@
-<ion-view view-title="Account">
-  <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
-  </ion-content>
+<ion-view view-title="个人中心">
+	<ion-content class="center-body">
+			<ion-refresher pulling-text="下拉刷新..." on-refresh="doRefresh()">
+		</ion-refresher>
+		<ion-list>
+			<ion-item id="li-style">
+				<img class="persion-icon" src="../img/logo/icon-of.png" alt=""  ng-click="editsome()" />
+				<div class="persion-msg" ng-show="isLogin"><span>{{user.username}}</span>
+					<p><span class="ion-social-vimeo" style="color: #FCD24C;"></span>会员</p>
+				</div>
+				<div class="persion-msg" ng-show="!isLogin" ng-click="login()"><span>登录</span>
+					<p><span>&nbsp;</span></p>
+				</div>
+				<span class="ion-ios-arrow-right msg-right"></span>
+			</ion-item>
+			<ion-item id="li-2-style" class="row">
+				<div class="col"><span class="ion-ios-paper-outline" ng-click="login()"></span>
+					<p>待付款</p>
+				</div>
+				<div class="col" ng-click="mypoint()"><span class="ion-soup-can-outline"></span>
+					<p>我的积分</p>
+				</div>
+				<div class="col" ng-click="footprint()"><span class="ion-ios-paw-outline"></span>
+					<p>足迹</p>
+				</div>
+			</ion-item>
+		</ion-list>
+
+		<div class="list" id="ul-list">
+
+			<li class="item item-icon-left item-icon-right"   ng-click="order()">
+				<i class="icon ion-android-checkbox-outline" id="menu"></i>我的订单
+				<i class="icon ion-ios-arrow-right" id="right-icon"></i>
+			</li>
+			<li class="item item-icon-left item-icon-right" ng-click="myShopCar()">
+				<i class="icon ion-android-cart" id="shop-car"></i>我的购物车
+				<i class="icon ion-ios-arrow-right" id="right-icon"></i>
+			</li>
+			<li class="item item-icon-left item-icon-right" ng-click="collect()">
+				<i class="icon ion-speakerphone" id="take-someone"></i>我的收藏
+				<i class="icon ion-ios-arrow-right" id="right-icon"></i>
+			</li>
+			<li class="item item-icon-left item-icon-right" ng-click="reset()">
+				<i class="icon ion-ios-locked-outline" id="set"></i>设置
+				<i class="icon ion-ios-arrow-right" id="right-icon"></i>
+			</li>
+
+		</div>
+	</ion-content>
 </ion-view>

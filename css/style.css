@@ -1,1 +1,164 @@
 /* Empty. Add your own CSS if you like */
+ 
+ /*首页*/
+.logo{width: 110px;height: 40px;position: absolute;left: -5px;top: 0;}
+
+.ion-search{position: absolute;right: 0;top: 0;}
+
+.page-cont h3{font-size: 16px;margin: 0.2rem;}
+
+.page-cont .fruit{height: 14rem;}
+
+.page-cont .fruit li{float: left;width: 50%;height: 50%;padding:2% 3%;}
+
+.page-cont .fruit li img{width: 100%;height: 100%;}
+ 
+.page-cont .birds{height: 12rem;}
+
+.page-cont .birds li{float: left;width: 100%;height: 40%;padding: 5% 0 0 0;}
+
+.page-cont .birds li img{width: 100%;height: 100%;}
+
+/*列表页*/
+.contentlist{position: absolute;left: 0;top: 0;width: 100%;}
+
+.contentlist .l_left{box-shadow: 0px 0px 2px #999;width:25%;position: absolute;left: 0;top: 0;}
+
+.contentlist .l_left li{padding: 1rem 0;text-align: center;border-bottom:1px solid #28A54C;}
+
+.contentlist .l_left li.active{color: #fff;background: #28A54C;}
+
+.contentlist .l_right{position:absolute;right:0;top:0;width: 75%;}
+
+.contentlist .l_right li a{text-decoration:none;position:relative;display: inline-block;width: 50%;height: 108%;font-size: 10px;line-height: 2;box-shadow: 0px 0px 2px #999;}
+
+.contentlist .l_right li a p{margin: 0;}
+
+.contentlist .l_right li a p .off{color: red;}
+
+.contentlist .l_right img{width:96%;height: 6rem;}
+
+.contentlist .l_right li{height:9rem;text-align: center;}
+
+/*详情页*/
+.contents img{width: 90%;height: 18rem;margin:2% 5% 0 5%;}
+
+.contents p{margin: 1rem 0.5rem;}
+
+.contents  .colect{padding: 3px;background: red;margin-left: 20px;color: #FFFFFF;}
+
+.contents p .price{color: red;font-size: 22px;}
+
+.shop-detail{font-size: 18px;}
+
+.detail-cont{width: 100%;}
+
+.shop-box{width: 100%;}
+
+#car-btn{width: 45%;}
+
+.shop-box .chat,.shop-box .shop{position:relative;background:#E5E5E5;font-size: 16px;text-align:center;width: 45%;margin-right:5%;display: inline-block;line-height: 42px;border: 1px solid #E5E5E5;}
+
+.shop-box .shop .shop-num{position: absolute;right: 0;top: 0;background: red;display:block;width: 20%;height: 50%;border-radius: 50%;color: #FFFFFF;line-height: 1.6;}
+
+.shop-box .chat:before,.shop-box .shop:before{color: #ffc900;font-size: 24px;padding-top: 8px;}
+
+.shop-box .chat:before{color: #28A54C;}
+
+/*个人中心*/
+.center-body{background: #F1F5F6;}
+
+#li-style{padding:  0 0 0 5px;position: relative;background: #33cdab;color: #ffffff;}
+
+.persion-icon{width: 60px;height: 60px;border-radius: 50%;margin-top: 5px;}
+
+.persion-msg{width: 45%;height: 45px;display: inline-block;padding-left: 20px;}
+
+#li-style .persion-msg p{width: 80px;padding-top: 2px;color: #ffffff;}
+
+.msg-right{position: absolute;right: 12px;top: 28%;font-size: 30px;}
+
+#li-2-style{width: auto;padding: 0;}
+
+#li-2-style .col{text-align: center;border-right: 1px solid #dadada;}
+
+#li-2-style .col span{font-size: 22px;;}
+
+#li-2-style .col:last-child{border: none;}
+
+#ul-list{margin-top: 10px;}
+
+#ul-list .item{font-size: 14px;}
+
+#ul-list #right-icon{font-size: 20px;}
+
+#ul-list #menu{color:#FC215E;}
+
+#ul-list #take-someone{color:#886aea;}
+
+#ul-list #set{color:#33cd5f;}
+
+#ul-list #shop-car{color:#FFA64C;}
+
+/*登录*/
+
+#login.login {background:none;}
+
+#login.login .title{color: #a2a2a2;}
+
+#login .button.button-clear{color:#333333;}
+
+#icon-login img{margin: 0 40%;width: 70px;height: 70px;border-radius: 50%;}
+
+#login-cont  .reg-login-tip{position: relative;}
+
+#login-cont .reg-login-tip .forget-pass{position: absolute;right: 20px;top: 0;}
+
+#login-cont .reg-login-tip .want-reg{margin-left: 20px;}
+
+.popup .popup-body{text-align: center;}
+
+/*购物车*/
+ 
+.car{width: 100%;}
+ 
+.car .shops-title{height: 22px;line-height: 20px;font-size: 14px;padding-left: 10px;position: relative;}
+
+.car .shops-title input{width:16px;height:14px;margin-right: 10px;margin-top: 10px;}
+
+.car .shops-title span{padding-left: 30px;}
+
+.car .shops-title em{position: absolute;right: 10%;top: 40%;font-size: 14px;padding: 0 10px;}
+
+.car .shops-title span i{margin-right: 5px;}
+
+.car  .shop-car-list{background: #DADADA;padding-bottom: 8px;}
+
+.car  .itemlist {padding-left: 10px;background: #FFFFFF;margin-bottom: 2px;position: relative;}
+
+.car  .itemlist img{width: 80px;height: 80px;}
+
+.car  .itemlist input{height: 80px;width:14px;}
+
+.car  .shop-car-list .detail-titles{position: absolute;left:120px;top: 10%;width: 65%;height: 80px;}
+
+.totle-warn{display: flex;height: 45px;line-height: 45px;font-size: 16px;}
+.check-totle,.totle-price,.pay{flex: 1;}
+.pay{text-align: center;background: red;color: #FFFFFF;}
+
+/*物品信息*/
+.car  .shop-car-list .detail-titles .price-thing{position: relative;}
+
+.car  .shop-car-list .detail-titles .price-thing em{position: absolute;right: 10%;font-size: 16px;}
+
+.car  .shop-car-list .detail-titles .price-thing i{ text-decoration:line-through;color: #999;}
+
+/*编辑信息*/
+.car  .shop-car-list .detail-titles .left-edit{width: 60%;height:80%;line-height:64px;position: absolute;left: 5%;top: 5%;font-size: 22px;}
+
+.car  .shop-car-list .detail-titles .left-edit span{display: inline-block;width: 40%;text-align: center;}
+
+.car  .shop-car-list .detail-titles .right-delet{width: 30%;height: 75%;position: absolute;font-size:20px;right: 5%;top: 0%;background: red;color: #FFFFFF;text-align: center;line-height: 60px;}
+
+
+

@@ -1,0 +1,270 @@
+[
+	{
+		"id": "F001",
+		"title": "无公害水果直销",
+		"type":"fruit",
+		"imgurl":["img/fruit/shali.jpg","img/fruit/jizao.jpg","img/fruit/qingmeng.jpg","img/fruit/nimaotao2.jpg"] ,
+		"datalist": [
+				{
+				"id":"ff131",
+				"title": "无公害水果--菠萝","price":28,"off":0.7,
+				"list":"img/fruit/boluo.png",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff132",
+				"title": "无公害水果--水蜜桃","price":18,"off":0.7,
+				"list":"img/fruit/shuimitou.png",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff133",
+				"title": "无公害水果杨桃","price":28,"off":0.7,
+				"list":"img/fruit/yangtao.png",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff134",
+				"title": "无公害水果--火龙果","price":32,"off":0.7,
+				"list":"img/fruit/huolong.jpg",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff135",
+				"title": "无公害水果--猕猴桃","price":32,"off":0.7,
+				"list":"img/fruit/nimaotao2.jpg",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff136",
+				"title": "无公害水果--青柠檬","price":18,"off":0.8,
+				"list":"img/fruit/qingmeng.jpg",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff137",
+				"title": "无公害水果--青枣","price":16,"off":0.7,
+				"list":"img/fruit/jizao.jpg",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff138",
+				"title": "无公害水果-山梨","price":18,"off":0.8,
+				"list":"img/fruit/shali.jpg",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff139",
+				"title": "无公害水果--芒果","price":12,"off":0.7,
+				"list":"img/fruit/gg-mg.jpg",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff140",
+				"title": "无公害水果--杨桃","price":10,"off":0.9,
+				"list":"img/fruit/yangtao.png",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff141",
+				"title": "无公害水果--橙子","price":8,"off":0.7,
+				"list":"img/fruit/orange.png",
+				"detail":"img/fruit/detail3.jpg"
+				},{
+				"id":"ff142",
+				"title": "无公害水果--草莓","price":18,"off":0.88,
+				"list":"img/fruit/caomei1.png",
+				"detail":"img/fruit/detail3.jpg"
+				}],
+		"url":"detail.html"
+	},
+	{
+		"id": "F002",
+		"title": "农家肉类直销",
+		"type":"birds",
+		"imgurl": ["img/birds/shanzhu.jpg","img/birds/muji1.jpg","img/birds/larou.jpg","img/birds/yang.jpg"],
+		"datalist": [
+				{
+				"id":"ff031","title": "农家肉类--山猪肉","price":28,"off":0.7,
+				"list":"img/birds/larou.jpg",
+				"detail":"img/birds/detail6.gif"
+				},{
+				"id":"ff032","title": "农家肉类--山猪肉","price":18,"off":0.78,
+				"list":"img/birds/shanzhu.jpg",
+				"detail":"img/birds/detail6.gif"
+				},{
+				"id":"ff033","title": "农家肉类--山猪肉","price":28,"off":0.8,
+				"list":"img/birds/baizhu.JPEG",
+				"detail":"img/birds/detail8.jpg"
+				},{
+				"id":"ff034","title": "农家肉类--山猪肉","price":58,"off":0.8,
+				"list":"img/birds/tujidan.jpg",
+				"detail":"img/birds/detail8.jpg"
+				},{
+				"id":"ff035","title": "农家肉类--山猪肉","price":18,"off":0.7,
+				"list":"img/birds/yang.jpg",
+				"detail":"img/birds/detail8.jpg"
+				},{
+				"id":"ff036","title": "农家肉类--山猪肉","price":58,"off":0.8,
+				"list":"img/birds/baizhu.JPEG",
+				"detail":"img/birds/detail6.gif"
+				},{
+				"id":"ff037","title": "农家肉类--山猪肉","price":18,"off":0.78,
+				"list":"img/birds/muji1.jpg",
+				"detail":"img/birds/detail8.jpg"
+				},{
+				"id":"ff038","title": "农家肉类--山猪肉","price":28,"off":0.9,
+				"list":"img/birds/shanzhu.jpg",
+				"detail":"img/birds/detail6.gif"
+				}],
+		"url": "detail.html"
+	},
+	{
+		"id": "F003",
+		"title": "无公害蔬菜直销",
+		"type":"vegetable",
+		"imgurl": ["img/vegetable/jiucaiye.jpg","img/vegetable/xihongshi.jpg","img/vegetable/woshun.jpg","img/vegetable/yudou2.jpg"],
+		"datalist": [
+				{
+				"id":"ff023","title": "无公害蔬菜--西兰花","price":5,"off":0.79,
+				"list":"img/vegetable/yudou2.jpg",
+				"detail":"img/vegetable/detail7.gif"
+				},{
+				"id":"ff024","title": "无公害蔬菜--西兰花","price":6,"off":0.5,
+				"list":"img/vegetable/woshun.jpg",
+				"detail":"img/vegetable/detail7.gif"
+				},{
+				"id":"ff025","title": "无公害蔬菜--西兰花","price":5,"off":0.6,
+				"list":"img/vegetable/yudou2.jpg",
+				"detail":"img/vegetable/detail7.gif"
+				},{
+				"id":"ff026","title": "无公害蔬菜--西兰花","price":6,"off":0.7,
+				"list":"img/vegetable/yudou2.jpg",
+				"detail":"img/vegetable/detail7.gif"
+				},{
+				"id":"ff027","title": "无公害蔬菜--西兰花","price":5,"off":0.88,
+				"list":"img/vegetable/xihongshi.jpg",
+				"detail":"img/vegetable/detail7.gif"
+				},{
+				"id":"ff028","title": "无公害蔬菜--西兰花","price":3,"off":0.7,
+				"list":"img/vegetable/jiucaiye.jpg",
+				"detail":"img/vegetable/detail7.gif"
+				}],
+		"url": "detail.html"
+	},
+	{
+	
+		"id": "F004",
+		"title": "水塘水产",
+		"type":"fish",
+		"imgurl": ["img/fish/yugan.jpg","img/fish/baoyu.jpg","img/fish/longsha1.jpg","img/fish/caoyu.JPEG"],
+		"datalist": [
+				{
+				"id":"ff001","title": "水塘水产--草鱼","price":38,"off":0.9,
+				"list":"img/fish/yugan.jpg",
+				"detail":"img/fish/detail4.jpg"
+				},{
+				"id":"ff002","title": "水塘水产--草鱼","price":30,"off":0.6,
+				"list":"img/fish/baoyu.jpg",
+				"detail":"img/fish/detail4.jpg"
+				},{
+				"id":"ff003","title": "水塘水产--草鱼","price":28,"off":0.6,
+				"list":"img/fish/longsha1.jpg",
+				"detail":"img/fish/detail4.jpg"
+				},{
+				"id":"ff004","title": "水塘水产--草鱼","price":28,"off":0.6,
+				"list":"img/fish/caoyu.JPEG",
+				"detail":"img/fish/detail4.jpg"
+				},{
+				"id":"ff005","title": "水塘水产--草鱼","price":30,"off":0.9,
+				"list":"img/fish/baiyu.jpg",
+				"detail":"img/fish/detail4.jpg"
+				},{
+				"id":"ff006","title": "水塘水产--草鱼","price":58,"off":0.8,
+				"list":"img/fish/baoyu.jpg",
+				"detail":"img/fish/detail4.jpg"
+				},{
+				"id":"ff007","title": "水塘水产--草鱼","price":58,"off":0.8,
+				"list":"img/fish/caoyu.JPEG",
+				"detail":"img/fish/detail4.jpg"
+				},{
+				"id":"ff008","title": "水塘水产--草鱼","price":58,"off":0.8,
+				"list":"img/fish/yu.JPEG",
+				"detail":"img/fish/detail4.jpg"
+				}],
+		"url": "detail.html"
+	},
+	{
+	
+		"id": "F005",
+		"title": "茶系类",
+		"type":"tea",
+		"imgurl": ["img/tea/hongcha.JPEG","img/tea/lvcha.jpg","img/tea/maofeng.jpg","img/tea/yinmao.jpg"],
+		"datalist": [
+				{
+				"id":"ff211","title": "茶系类--红茶","price":78,"off":0.9,
+				"list":"img/tea/hongcha.JPEG",
+				"detail":"img/tea/detail9.jpg"
+				},{
+				"id":"ff212","title": "茶系类--绿茶","price":90,"off":0.6,
+				"list":"img/tea/lvcha.jpg",
+				"detail":"img/tea/detail9.jpg"
+				},{
+				"id":"ff213","title": "茶系类--毫锋","price":28,"off":0.6,
+				"list":"img/tea/maofeng.jpg",
+				"detail":"img/tea/detail9.jpg"
+				},{
+				"id":"ff214","title": "茶系类--银毫","price":98,"off":0.6,
+				"list":"img/tea/yinmao.jpg",
+				"detail":"img/tea/detail9.jpg"
+				},{
+				"id":"ff215","title": "茶系类--盒装红茶","price":36,"off":0.9,
+				"list":"img/tea/hongchahe.jpg",
+				"detail":"img/tea/detail9.jpg"
+				},{
+				"id":"ff216","title": "茶系类--蓝山红茶","price":68,"off":0.6,
+				"list":"img/tea/lanshanh.jpg",
+				"detail":"img/tea/detail9.jpg"
+				},{
+				"id":"ff217","title": "茶系类--毛尖","price":80,"off":0.9,
+				"list":"img/tea/maojian.jpg",
+				"detail":"img/tea/detail9.jpg"
+				},{
+				"id":"ff218","title": "茶系类--盒装毫锋茶","price":80,"off":0.9,
+				"list":"img/tea/jingmaofeng.jpg",
+				"detail":"img/tea/detail9.jpg"
+				}],
+		"url": "detail.html"
+	},
+	{
+		"id": "F006",
+		"title": "营养搭配套餐",
+		"type":"fruitteam",
+		"imgurl": ["img/fruitteam/team1.png","img/fruitteam/team2.png","img/fruitteam/team3.png","img/fruitteam/team4.png"],
+		"datalist": [
+				{
+				"id":"ff011","title": "最佳营养搭配","price":88,"off":0.88,
+				"list":"img/fruitteam/team1.png",
+				"detail":"img/fruitteam/detail5.jpg"
+				},{
+				"id":"ff012","title": "最佳营养搭配","price":88,"off":0.88,
+				"list":"img/fruitteam/team2.png",
+				"detail":"img/fruitteam/detail5.jpg"
+				},{
+				"id":"ff013","title": "最佳营养搭配","price":88,"off":0.88,
+				"list":"img/fruitteam/team3.png",
+				"detail":"img/fruitteam/detail5.jpg"
+				},{
+				"id":"ff014","title": "最佳营养搭配","price":108,"off":0.88,
+				"list":"img/fruitteam/team4.png",
+				"detail":"img/fruitteam/detail5.jpg"
+				},{
+				"id":"ff015","title": "最佳营养搭配","price":288,"off":0.88,
+				"list":"img/fruitteam/team6.png",
+				"detail":"img/fruitteam/detail5.jpg"
+				},{
+				"id":"ff016","title": "最佳营养搭配","price":88,"off":0.88,
+				"list":"img/fruitteam/team7.png",
+				"detail":"img/fruitteam/detail5.jpg"
+				},{
+				"id":"ff017","title": "最佳营养搭配","price":188,"off":0.88,
+				"list":"img/fruitteam/team5.png",
+				"detail":"img/fruitteam/detail5.jpg"
+				},{
+				"id":"ff018","title": "最佳营养搭配","price":88,"off":0.88,
+				"list":"img/fruitteam/team8.png",
+				"detail":"img/fruitteam/detail5.jpg"
+				}],
+		"url": "detail.html"
+	}
+]
